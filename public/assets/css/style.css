@@ -1,0 +1,218 @@
+
+.boldSete{
+    font-weight: 700 !important;
+}
+.navbarTransparent{ 
+    height: 30rem;
+    background-image: url("/assets/images/materialesBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;
+    transition: 0s linear; */
+    background-position: 25% 85%;
+    padding-top: 3%;
+}
+  
+header .container {
+    position: relative;
+    z-index: 2;
+}
+.inicioDiv{
+    height: 45rem;
+}
+
+.fonts{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.aboutSectionBoot{
+    height: 28rem;
+    padding-top: 4%;
+    /* background-color: #e1f4fa; */
+}
+.aboutSectionBoot2{
+    height: 18rem;
+    padding-top: 4%;
+    /* background-color: #e1f4fa; */
+}
+
+.textBlueDeep{
+    color: #043474 !important;
+}
+.bridgeServicios{
+    background-color: #04A4D0;
+}
+.almacenVisionMision{
+    height: 14rem;
+    background-image: url("/assets/images/almacen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;
+    transition: 0s linear; */
+    background-position: 25% 85%;
+    padding-top: 3%;
+}
+.bannerContactoAd{
+    height: 14rem;
+    background-image: url("/assets/images/lineas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 85%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.overlayAd{
+    height: 100%;
+    width: 100%;
+   
+    padding-top: 5%;
+}
+
+.textApoyo{
+    text-align: right;
+}
+.privacidadBanner{
+    height: 20rem;
+    /* background-image: url("/assets/images/privacidadImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin-bottom: 5%;
+    padding-bottom: 24%;
+  
+}
+.servicioUno{
+    height: 23rem;
+    background-image: url("/assets/images/38.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+.servicioDos{
+    height: 23rem;
+    background-image: url("/assets/images/39.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+.servicioTres{
+    height: 23rem;
+    background-image: url("/assets/images/40.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicioCuatro{
+    height: 23rem;
+    background-image: url("/assets/images/41.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.privacidadTitle{
+    margin-top: 20%;
+    font-weight: 700;
+}
+.contacto{
+    height: 40rem;
+    margin-top: 5%;
+    padding-top: 5%;
+    color: white;
+}
+.titleServicio{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.servicioPara{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    border-radius: 8px;
+    margin-top: 2%;
+    padding: 4%;
+}
+.servicioPara{
+    display: none;
+}
+.service:hover .servicioPara{
+    display: block;
+}
+.wheat{
+    color: wheat;
+}
+.imgLogoFooter{
+    margin-left: 35%
+}
+
+@media(min-width:992px){
+    .serviciosTuki{
+        font-size: 3rem;
+    }
+    
+}
+@media(max-width:991px){
+    .imgLogoFooter{
+        margin-left: 18%
+    }
+    .serviceBig{
+        height: 30rem !important;
+    }
+    .servicioDos{
+        margin-top: 0%;
+    }
+    .bannerContactoAd{
+        height: 6rem;
+    }
+    .navbarTransparent{
+        height: 14rem;
+    }
+    .privacidadBanner{
+        height: 35rem;
+        margin-bottom: 10%;
+        
+    }
+    .marginCard{
+        margin-top: 15%;
+    }
+    .serviceCard{
+        margin-left: 8%;
+    }
+    .listApoyo{
+        margin-bottom: 10%;
+    }
+    .textApoyo{
+        text-align: center;
+    }
+    .almacenVisionMision{
+        height: 27rem;
+        background-image: url("/assets/images/almacenStory.jpg");
+    }
+    .aboutSectionBoot{
+        height: 47rem;
+        padding-top: 20%;
+        margin-top: -5%;
+    }
+    .aboutSectionBoot2{
+        height: 17rem;
+        padding-top: 5%;
+        margin-top: -5%;
+    }
+    .inicioDiv{
+        height: 48rem;
+    }
+    .contacto{
+        margin-top: 0%;
+    }
+}
