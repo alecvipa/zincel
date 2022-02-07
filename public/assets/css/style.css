@@ -58,6 +58,7 @@ header .container {
     transition: 0s linear; */
     background-position: 25% 85%;
     padding-top: 3%;
+    margin-bottom: 3%;
 }
 .bannerContactoAd{
     height: 14rem;
@@ -67,7 +68,6 @@ header .container {
     background-size: cover;
     background-position: 25% 85%;
     margin-top: 3%;
-    margin-bottom: 3%;
 }
 .overlayAd{
     height: 100%;
@@ -160,6 +160,9 @@ header .container {
     .serviciosTuki{
         font-size: 3rem;
     }
+    .nav-link{
+        font-size: 20px;
+    }
     
 }
 @media(max-width:991px){
@@ -198,6 +201,7 @@ header .container {
     .almacenVisionMision{
         height: 27rem;
         background-image: url("/assets/images/almacenStory.jpg");
+        margin-bottom: 3%;
     }
     .aboutSectionBoot{
         height: 47rem;
